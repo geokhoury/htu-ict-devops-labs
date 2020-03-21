@@ -10,18 +10,18 @@
 # For each pass through the loop, arg takes on the value of each successive value in the list. 
 # Then the command(s) are executed.
 
-# loop on array member
-BASKET=(Bananas Carrots Oranges Pears)
+# # loop on array member
+# BASKET=(Bananas Carrots Oranges Pears)
 
-# for item in ${BASKET[@]} ; do
-#     echo "My item is $item."
-# done
+for item in ${BASKET[@]} ; do
+    echo "My item is $item."
+done
 
 # loop on command output results
 
-# for f in $( ls . ) ; do
-#     echo "File is: $f"
-# done
+for f in $( ls . ) ; do
+    echo "File is: $f"
+done
 
 ## bash while loop - basic construct
 
@@ -33,11 +33,11 @@ BASKET=(Bananas Carrots Oranges Pears)
 # The while construct tests for a condition, and if true, executes commands. 
 # It keeps looping as long as the condition is true.
 
-# COUNT=4
-# while [ $COUNT -gt 0 ]; do
-#     echo "Value of count is: $COUNT"
-#     COUNT=$(($COUNT - 1))
-# done
+COUNT=4
+while [ $COUNT -gt 0 ]; do
+    echo "Value of count is: $COUNT"
+    COUNT=$(($COUNT - 1))
+done
 
 ## bash until loop - basic construct
 
@@ -56,30 +56,31 @@ until [ $COUNT -gt 5 ]; do
 done
 
 # "break" and "continue" statements
+
 # break and continue can be used to control the loop execution of for, while and until constructs. 
 # continue is used to skip the rest of a particular loop iteration, whereas break is used to skip the entire rest of loop. 
+
 # A few examples:
 
 # Prints out 0,1,2,3,4
 
-# COUNT=0
-# while [ $COUNT -ge 0 ]; do
-#     echo "Value of COUNT is: $COUNT"
-#     COUNT=$((COUNT+1))
-#     if [ $COUNT -ge 5 ] ; then
-#         break
-#     fi
-# done
+COUNT=0
+while [ $COUNT -ge 0 ]; do
+    echo "Value of COUNT is: $COUNT"
+    COUNT=$((COUNT+1))
+    if [ $COUNT -ge 5 ] ; then
+        break
+    fi
+done
 
 # Prints out only odd numbers [1,3,5,7,9]
 
-# COUNT=0
-# while [ $COUNT -lt 10 ]; do
-#     COUNT=$((COUNT+1))
-#     # Check if COUNT is even
-#     if [ $(($COUNT % 2)) = 0 ] ; then
-#         continue
-#     fi
-#     echo $COUNT
-# done
-
+COUNT=0
+while [ $COUNT -lt 10 ]; do
+    COUNT=$((COUNT+1))
+    # Check if COUNT is even
+    if [ $(($COUNT % 2)) = 0 ] ; then
+        continue
+    fi
+    echo $COUNT
+done

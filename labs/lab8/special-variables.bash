@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "Script Name: $0"
 function myFunction {
     for var in $*
@@ -9,3 +10,4 @@ function myFunction {
     echo "Total count of arguments: $#"
 }
 myFunction We are a list of arguments
+
