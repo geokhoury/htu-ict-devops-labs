@@ -1,4 +1,4 @@
-# Lab 8 - Advanced Bash
+# HTU ICT - Introduction to DevOps
 
 ## Outline
 
