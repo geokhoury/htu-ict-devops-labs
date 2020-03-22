@@ -1,15 +1,19 @@
-# Lab 8 - Advanced Bash
+# HTU ICT Upskilling
+
+## Introduction to DevOps
+
+This repository contains all lab files for course. Get started by checking out the outline below.
 
 ## Outline
 
-| Lab                            |            Title            |
-| ------------------------------ | :-------------------------: |
-| [Lab 0](./labs/lab0/)          |                             |
-| [Lab 1](./labs/lab1/)          | Introducing the Linux Shell |
-| [Lab 2](./labs/lab2/)          | Getting started with Linux  |
-| [Lab 3](./labs/lab3/)          |  User and Group Management  |
-| [Lab 4](./labs/lab4/)          |    Processes Management     |
-| [Lab 5](./labs/lab5/)          |    Environment Variables    |
-| [Lab 6](./labs/lab6/)          |      Linux Networking       |
-| [Lab 7](./labs/lab7/)          |         Bash Basics         |
-| [Lab 8](./labs/lab8/README.md) |        Advanced Bash        |
+| Lab                                                      |            Title            |
+| -------------------------------------------------------- | :-------------------------: |
+| [Lab 0](./labs/lab0/lab0-development-envrionment.md)     |   Development Environment   |
+| [Lab 1](./labs/lab1/lab1-introducing-the-linux-shell.md) | Introducing the Linux Shell |
+| [Lab 2](./labs/lab2/lab2-getting-started-with-Linux.md)  | Getting started with Linux  |
+| [Lab 3](./labs/lab3/lab3-user-and-group-management.md)   |  User and Group Management  |
+| [Lab 4](./labs/lab4/lab4-processes-management.md)        |    Processes Management     |
+| [Lab 5](./labs/lab5/lab5-environment-variables.md)       |    Environment Variables    |
+| [Lab 6](./labs/lab6/lab6-linux-networking.md)            |      Linux Networking       |
+| [Lab 7](./labs/lab7/lab7-bash-basics.md)                 |         Bash Basics         |
+| [Lab 8](./labs/lab8/lab8-advanced-bash.md)               |        Advanced Bash        |

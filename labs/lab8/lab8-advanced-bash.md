@@ -1,20 +1,22 @@
 # Lab 8 - Advanced Bash
 
-Lab files: (labs/lab8)[../labs/lab8]
+Lab files: [labs/lab8](../labs/lab8])
+
 ## Reading Resources
+
+* [Shell Scripting Tutorial](https://www.shellscript.sh/) -- **Imporant**
+* [Shell Scripting Tips](https://www.shellscript.sh/tips/)
 
 ## Exercises
 
 In this lab we explore the following topics:
 
-* [Basic Arithmetic]()
-* [Strings]()
 * [Arguments and Argument Lists]()
 * [Loops]()
 * [Decisions]()
 * [Functions]()
-* [Traps]()
-  
+* [Signals and Traps]()
+
 ### Arguments and Argument Lists
 
 ```bash
@@ -30,20 +32,19 @@ echo "The arguments provided are [$*]."
 echo "$@"
 ```
 
-You can refer to exercise files:
+**You can refer to the following exercise files:**
 
-* [`arguments.bash`](./arguments)
+* [`arguments.bash`](./arguments.bash)
 * [`arguments-list.bash`](./arguments-list.bash)
 
 ### Loops
 
 ```bash
 ## basic construct
-
-# for arg in [list];
-# do
-#  command(s)...
-# done
+for arg in [list];
+do
+ command(s)...
+done
 
 # For each pass through the loop, arg takes on the value of each successive value in the list. 
 # Then the command(s) are executed.
@@ -56,7 +57,7 @@ for item in ${BASKET[@]} ; do
 done
 ```
 
-You can refer to exercise files:
+**You can refer to the following exercise files:**
 
 * [`loops.bash`](./loops.bash)
 * [`loops-index.bash`](./loops-index.bash)
@@ -74,7 +75,11 @@ else
 fi
 ```
 
-You can refer to exercise files:
+**You can refer to the following exercise files:**
 
 * [`decisions-case.bash`](./decisions-case.bash)
 * [`decisions-ifelse.bash`](./decisions-ifelse.bash)
+
+### Functions
+
+### Signals and Traps
