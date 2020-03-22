@@ -1,6 +1,6 @@
 # Lab 8 - Advanced Bash
 
-Lab files: [labs/lab8](../labs/lab8)
+Lab files: [labs/lab8](../lab8)
 
 ## Reading Resources
 

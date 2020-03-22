@@ -1,6 +1,6 @@
 # Lab 7 - Bash Basics
 
-Lab files: [labs/lab7](../labs/lab7)
+Lab files: [labs/lab7](../lab7)
 
 ## Reading Resources
 
