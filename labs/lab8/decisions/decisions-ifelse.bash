@@ -1,36 +1,33 @@
 #!/bin/bash
-# This script discusses basic bash operators
 
-## if [ expression ]; then
-##  code if 'expression' is true
-## fi
+# Just and if statement
 
-# COURSE="DevOps"
-# if [ "$COURSE" = "DevOps" ]; then
-#     echo "This is the DevOps course."
-# fi
+COURSE="DevOps"
+if [ "$COURSE" = "DevOps" ]; then
+    echo "This is the DevOps course."
+fi
 
 # It can be expanded with 'else'
 
-# COURSE="Linux"
-# if [ "$COURSE" = "DevOps" ]; then
-#     echo "This is the DevOps course."
-# else
-#     echo "This is the $COURSE course."
-# fi
+COURSE="Linux"
+if [ "$COURSE" = "DevOps" ]; then
+    echo "This is the DevOps course."
+else
+    echo "This is the $COURSE course."
+fi
 
 # It can be expanded with 'elif' (else-if)
 
-# COURSE="Intro to Linux"
-# if [ "$COURSE" = "DevOps" ]; then
-#     echo "This is the DevOps course."
-# elif [ "$COURSE" = "Linux" ]; then
-#     echo "This is the Linux course."
-# elif [ "$COURSE" = "Intro to Linux" ]; then
-#     echo "This is the Intro to Linux course."
-# else
-#     echo "This is the $COURSE course."
-# fi
+COURSE="Intro to Linux"
+if [ "$COURSE" = "DevOps" ]; then
+    echo "This is the DevOps course."
+elif [ "$COURSE" = "Linux" ]; then
+    echo "This is the Linux course."
+elif [ "$COURSE" = "Intro to Linux" ]; then
+    echo "This is the Intro to Linux course."
+else
+    echo "This is the $COURSE course."
+fi
 
 # The expression used by the conditional construct is evaluated to either true or false. 
 # The expression can be a single string or variable. 

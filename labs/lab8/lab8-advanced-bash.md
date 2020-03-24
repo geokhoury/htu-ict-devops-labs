@@ -11,11 +11,11 @@ Lab files: [labs/lab8](../lab8)
 
 In this lab we explore the following topics:
 
-* [Arguments and Argument Lists]()
-* [Loops]()
-* [Decisions]()
-* [Functions]()
-* [Signals and Traps]()
+* [Arguments and Argument Lists](./arguments/)
+* [Loops](./loops/)
+* [Decisions](./decisions/)
+* [Functions](./functions/)
+* [Signals and Traps](./traps/)
 
 ### Arguments and Argument Lists
 
@@ -40,18 +40,10 @@ echo "$@"
 ### Loops
 
 ```bash
-## basic construct
-for arg in [list];
-do
- command(s)...
-done
-
-# For each pass through the loop, arg takes on the value of each successive value in the list. 
-# Then the command(s) are executed.
-
-# loop on array member
+# Declare and initialize an array
 BASKET=(Bananas Carrots Oranges Pears)
 
+# Loop over array using for
 for item in ${BASKET[@]} ; do
     echo "My item is $item."
 done
@@ -64,10 +56,21 @@ done
 
 ### Decisions
 
-```bash
-## basic construct
+In bash the following is the basic construct for an `if` statement.
 
+```bash
+if [ expression ]; then
+ code if 'expression' is true
+fi
+```
+
+Here is an example.
+
+```bash
+# Declare and initialize variable for expression
 COURSE="Linux"
+
+# if-else block to check the value of $COURSE
 if [ "$COURSE" = "DevOps" ]; then
     echo "This is the DevOps course."
 else
@@ -77,9 +80,12 @@ fi
 
 **You can refer to the following exercise files:**
 
-* [`decisions-case.bash`](./decisions-case.bash)
-* [`decisions-ifelse.bash`](./decisions-ifelse.bash)
+* [`decisions-case.bash`](./decisions/decisions-case.bash)
+* [`decisions-ifelse.bash`](./decisions/decisions-ifelse.bash)
 
 ### Functions
+
+
+
 
 ### Signals and Traps

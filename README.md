@@ -2,7 +2,7 @@
 
 ## Introduction to DevOps
 
-This repository contains all lab files for course. Get started by checking out the outline below.
+This repository contains all lab files for the course. Get started by checking out the outline below.
 
 ## Outline
 
