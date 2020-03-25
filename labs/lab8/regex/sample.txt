@@ -1,0 +1,14 @@
+ant
+apple
+bat
+ball
+banana
+count
+dive
+eat
+fish
+go
+hike
+joke
+pant
+taste

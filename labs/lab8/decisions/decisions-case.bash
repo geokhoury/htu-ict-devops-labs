@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# simple case bash structure
+# Basic construct
 
 devtools=3
 case $devtools in

@@ -16,6 +16,8 @@ In this lab we explore the following topics:
 * [Decisions](./decisions/)
 * [Functions](./functions/)
 * [Signals and Traps](./traps/)
+* [Testing Files](./files/)
+* [Regex](./regex/)
 
 ### Arguments and Argument Lists
 
@@ -89,3 +91,13 @@ fi
 
 
 ### Signals and Traps
+
+### Testing Files
+
+### Regex
+
+#### Tutorials to check out
+
+* [http://www.rexegg.com/](http://www.rexegg.com/)
+* [Regex Tutorial (Sed, AWK)](https://likegeeks.com/regex-tutorial-linux/)
+* [Regex using Sed](https://www.tutorialspoint.com/unix/unix-regular-expressions.htm)
