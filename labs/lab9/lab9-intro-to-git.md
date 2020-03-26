@@ -183,7 +183,7 @@ After committing the changes to your local repository, you can use `git log` to 
 * What is different between the files?
 * How does the diff tool work?
 * How can I specify which diff tool is used by Git?
-* What happens when we leave out the -m flag?
+* What happens when we leave out the `-m` flag?
 * How many commits were expected? How many are there?
 
 ## Comparing and Inspecting Changes
