@@ -17,3 +17,4 @@ This repository contains all lab files for the course. Get started by checking o
 | [Lab 6](./labs/lab6/lab6-linux-networking.md)            |      Linux Networking       |
 | [Lab 7](./labs/lab7/lab7-bash-basics.md)                 |         Bash Basics         |
 | [Lab 8](./labs/lab8/lab8-advanced-bash.md)               |        Advanced Bash        |
+| [Lab 9](./labs/lab9/lab9-intro-to-git.md)                |     Introduction to Git     |
