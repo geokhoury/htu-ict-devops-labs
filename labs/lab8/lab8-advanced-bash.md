@@ -87,9 +87,6 @@ fi
 
 ### Functions
 
-
-
-
 ### Signals and Traps
 
 ### Testing Files
